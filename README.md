@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/AleksanderMielczarek/HamburgerArrowNavigation.svg)](https://jitpack.io/#AleksanderMielczarek/HamburgerArrowNavigation)
+[![Release](https://jitpack.io/v/AleksanderMielczarek/HamburgerArrowNavigation.svg)](https://jitpack.io/#AleksanderMielczarek/HamburgerArrowNavigation)
 
 # HamburgerArrowNavigation
 

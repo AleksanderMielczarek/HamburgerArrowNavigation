@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/AppTheme.Widget.Toolbar</item>
+        <item name="drawerArrowStyle">@style/AppTheme.Widget.DrawerArrowToggle</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlNormal">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.Second">
+        <item name="drawerArrowStyle">@style/AppTheme.Widget.DrawerArrowToggle.Second</item>
+    </style>
+
+    <style name="AppTheme.Widget.DrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.Widget.DrawerArrowToggle.Second">
+        <item name="color">#ff0000</item>
+    </style>
+
+    <style name="AppTheme.Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">#ffffff</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+</resources>

@@ -23,7 +23,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.AleksanderMielczarek:HamburgerArrowNavigation:0.1.0'
+    compile 'com.github.AleksanderMielczarek:HamburgerArrowNavigation:0.1.1'
 }
 ```
 

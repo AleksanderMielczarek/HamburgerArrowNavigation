@@ -78,6 +78,12 @@ HamburgerArrowNavigation hamburgerArrowNavigation = HamburgerArrowNavigation.bui
         .build();
 ```
  
+## Changelog
+ 
+### 0.1.1 (2016-09-12)
+ 
+- fix issue with duration of partial animation
+ 
 ## License
 
     Copyright 2016 Aleksander Mielczarek

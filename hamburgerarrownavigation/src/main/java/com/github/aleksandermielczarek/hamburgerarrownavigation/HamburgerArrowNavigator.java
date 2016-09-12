@@ -69,6 +69,7 @@ public class HamburgerArrowNavigator {
         if (isProgress(target)) {
             return;
         }
+        hamburgerArrowDrawable.setProgress(hamburgerArrowNavigation.getProgress());
         final ValueAnimator anim = ValueAnimator.ofFloat(hamburgerArrowNavigation.getProgress(), target);
         anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -79,7 +80,8 @@ public class HamburgerArrowNavigator {
             }
         });
         anim.setInterpolator(new LinearInterpolator());
-        anim.setDuration(animationDuration);
+        long duration = (long) (Math.abs(target - hamburgerArrowNavigation.getProgress()) * animationDuration);
+        anim.setDuration(duration);
         hamburgerArrowNavigation.addValueAnimator(anim);
         context.getWindow().getDecorView().postDelayed(new Runnable() {
             @Override
